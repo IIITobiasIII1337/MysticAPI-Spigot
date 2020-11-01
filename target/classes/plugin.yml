@@ -1,0 +1,5 @@
+name: MysticAPI
+version: 1.0
+author: ITI
+
+main: net.mysticarmy.mysticapi.MysticAPI

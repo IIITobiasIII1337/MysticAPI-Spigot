@@ -22,10 +22,10 @@ public class MysticLogger {
         Bukkit.getPluginManager().callEvent(new MysticConsoleLogEvent(type, message));
         switch (type){
             case INFO:
-                Bukkit.getConsoleSender().sendMessage(MysticAPI.getInstance().getPrefix() + "§aINFO §8» §c" + message);
+                Bukkit.getConsoleSender().sendMessage(MysticAPI.getInstance().getPrefix() + "§aINFO §8» §a" + message);
                 break;
             case WARN:
-                Bukkit.getConsoleSender().sendMessage(MysticAPI.getInstance().getPrefix() + "§eWARN §8» §c" + message);
+                Bukkit.getConsoleSender().sendMessage(MysticAPI.getInstance().getPrefix() + "§eWARN §8» §e" + message);
                 break;
             case ERROR:
                 Bukkit.getConsoleSender().sendMessage(MysticAPI.getInstance().getPrefix() + "§4ERROR §8» §c" + message);

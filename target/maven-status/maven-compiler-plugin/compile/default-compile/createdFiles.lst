@@ -10,10 +10,12 @@ net\mysticarmy\mysticapi\logger\LogType.class
 net\mysticarmy\mysticapi\events\MysticPlayerJoinEvent.class
 net\mysticarmy\mysticapi\MysticAPI$1.class
 net\mysticarmy\mysticapi\events\MysticConsoleLogEvent.class
+net\mysticarmy\mysticapi\utils\ItemBuilder.class
 net\mysticarmy\mysticapi\events\MysticGameStateChangeEvent.class
 net\mysticarmy\mysticapi\entity\MysticPlayer.class
 net\mysticarmy\mysticapi\events\MysticPlayerQuitEvent.class
 net\mysticarmy\mysticapi\logger\MysticLogger$1.class
 net\mysticarmy\mysticapi\MysticAPI.class
 net\mysticarmy\mysticapi\cloudnet\CloudServer.class
+net\mysticarmy\mysticapi\file\LocationManager.class
 net\mysticarmy\mysticapi\gamestate\GameStateManager.class
